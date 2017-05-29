@@ -65,7 +65,7 @@ namespace Binary_Studio_Zoo_Task.Classes.ZooWorker
 
         public void ToFeedAnimal(string animalName)
         {
-            Animal animalToFeed = zooRepository.GetAnimalByName(animalName);
+            Animal animalToFeed = zooRepository.GetAnimal(animalName);
 
             if (animalToFeed == null)
             {
@@ -83,7 +83,7 @@ namespace Binary_Studio_Zoo_Task.Classes.ZooWorker
 
         public void ToHealAnimal(string animalName)
         {
-            Animal animalToHeal = zooRepository.GetAnimalByName(animalName);
+            Animal animalToHeal = zooRepository.GetAnimal(animalName);
 
             if (animalToHeal == null)
             {
