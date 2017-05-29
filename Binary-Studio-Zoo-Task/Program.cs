@@ -11,8 +11,21 @@ namespace Binary_Studio_Zoo_Task
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
-            menu.Run();
+            //string[] startCommands =
+            //{
+            //    "show_groups",
+            //    "show_full",
+            //    "show_tiger_ill",
+            //    "show_elephant_name_Robi",
+            //    "show_hungry_names",
+            //    "show_healthiest",
+            //    "show_numberOf_death",
+            //    "show_wolfs_bears",
+            //    "show_maxMin_health",
+            //    "show_avarage_health",
+            //};
+
+            new Menu().Run(null);
         }
     }
 }
