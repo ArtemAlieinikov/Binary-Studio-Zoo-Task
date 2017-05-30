@@ -21,7 +21,7 @@ namespace Binary_Studio_Zoo_Task
             //show_numberOf_death - получить количество мертвых животных каждого вида,
             //show_wolfs_bears - получить всех волков и медведей, у которых здоровье выше 3,
             //show_maxMin_health - получить животных с макс.и мин. здоровьем,
-            //show_avarage_health - получить среднее количество здоровья.
+            //show_avarage_health - получить среднее количество здоровья,
             #endregion
 
             #region start commands
