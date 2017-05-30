@@ -45,6 +45,7 @@ namespace Binary_Studio_Zoo_Task.ZooWorkflow
 
             while (true)
             {
+                Console.WriteLine();
                 Console.Write("command: ");
                 string command = Console.ReadLine();
                 ProcessCommand(command);
